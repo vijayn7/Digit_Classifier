@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def predict(Theta1, Theta2, X):
     m = X.shape[0]
     one_matrix = np.ones((m, 1))
