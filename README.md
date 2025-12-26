@@ -2,6 +2,34 @@
 
 This project implements a neural network to classify handwritten digits from the MNIST dataset. The neural network is trained using backpropagation and gradient descent.
 
+## 📖 Documentation
+
+**For an extremely detailed overview of this project, including architecture details, mathematical foundations, and comprehensive guides, please see [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md).**
+
+The comprehensive documentation includes:
+- 🎯 Detailed technical architecture and neural network design
+- 📊 In-depth mathematical foundations (forward/backpropagation, cost functions)
+- 📝 Complete file-by-file code breakdown
+- 🚀 Step-by-step installation and usage guides
+- 🔧 Troubleshooting tips and advanced features
+- 📈 Performance metrics and visualization explanations
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/vijayn7/Digit_Classifier.git
+cd Digit_Classifier
+
+# Install dependencies
+pip install numpy scipy matplotlib
+
+# Train the model
+python main.py
+```
+
+The model will train for 100 iterations (~3-8 minutes) and achieve ~95-97% test accuracy.
+
 ## Project Structure
 
 - `main.py`: The main script to load data, train the neural network, and evaluate its performance.
